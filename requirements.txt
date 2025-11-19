@@ -1,0 +1,13 @@
+# Requirements for Blackjack Simulator
+
+# CLI Interface
+rich>=13.7.0            # Beautiful terminal formatting
+click>=8.1.7            # Command-line interface creation
+
+# Data Analysis
+pandas>=2.1.0           # Statistics and data manipulation
+matplotlib>=3.8.0       # Graphs and visualizations
+numpy>=1.26.0           # Numerical operations
+
+# Type Hints
+typing-extensions>=4.8.0  # Extended typing support
