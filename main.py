@@ -158,7 +158,7 @@ def simulate_games(n_games: int, strategy_name: str, bankroll: int, bet: int, de
         elif result == "push":
             pushes += 1
         
-        if game.player.hand and game.player.hand.is_blackjack():
+        if game.player.hand and game.player.hand.is_blackjack:
             blackjacks += 1
         
         # Progress indicator

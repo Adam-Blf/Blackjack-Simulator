@@ -40,6 +40,11 @@ class Game:
         if self.player.bankroll < self.bet:
             return False
         
+        # Check if deck needs reshuffle
+        if self.deck.needs_shuffle(threshold=0.25):
+            self.deck.reset()
+            self.deck.shuffle()
+        
         # Place bet
         if not self.player.place_bet(self.bet):
             return False
@@ -57,11 +62,11 @@ class Game:
         self.round_active = True
         
         # Check for dealer blackjack
-        if self.dealer.hand.is_blackjack():
+        if self.dealer.hand.is_blackjack:
             return self._resolve_dealer_blackjack()
         
         # Check for player blackjack
-        if self.player.hand.is_blackjack():
+        if self.player.hand.is_blackjack:
             return self._resolve_player_blackjack()
         
         return True
@@ -138,7 +143,7 @@ class Game:
     
     def _resolve_dealer_blackjack(self) -> bool:
         """Handle dealer blackjack."""
-        if self.player.hand.is_blackjack():
+        if self.player.hand.is_blackjack:
             # Push
             self.player.win(self.bet)
             return False

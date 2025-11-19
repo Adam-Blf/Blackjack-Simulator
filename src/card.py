@@ -29,9 +29,15 @@ class Rank(Enum):
     KING = ("K", 10)
     ACE = ("A", 11)  # Can also be 1
     
-    def __init__(self, symbol: str, value: int):
-        self.symbol = symbol
-        self.value = value
+    @property
+    def symbol(self) -> str:
+        """Get the card symbol."""
+        return self.value[0]
+    
+    @property
+    def numeric_value(self) -> int:
+        """Get the numeric value."""
+        return self.value[1]
 
 
 @dataclass
@@ -44,7 +50,7 @@ class Card:
     @property
     def value(self) -> int:
         """Get the card's numeric value."""
-        return self.rank.value
+        return self.rank.numeric_value
     
     @property
     def is_ace(self) -> bool:
