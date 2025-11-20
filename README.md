@@ -49,6 +49,7 @@ Simulateur de Blackjack complet implémentant les règles officielles du casino 
 
 #### 🎨 Interface
 - ✅ CLI interactive avec Rich (couleurs, tableaux, progress bars)
+- ✅ **GUI Tkinter moderne** (mode graphique complet)
 - ✅ Affichage cartes Unicode (♠️♥️♣️♦️)
 - ✅ Animations (distribution cartes, résultats)
 - ✅ Aide contextuelle
@@ -151,7 +152,23 @@ mypy src/
 
 ### 🎮 Utilisation
 
-#### Mode Interactif
+#### Mode Graphique (GUI)
+
+```bash
+python main.py --gui
+```
+
+Interface Tkinter complète avec :
+- 🎨 Thème sombre moderne
+- 🃏 Cartes visuelles avec couleurs (♠️♥️♣️♦️)
+- 🎮 Contrôles : Hit, Stand, Double Down, Deal
+- 💰 Gestion bankroll et paris en temps réel
+- 🎯 Sélection stratégie (5 IA disponibles)
+- 🤖 Mode auto-play avec simulation
+- 📊 Statistiques session en direct
+- ⚙️ Configuration decks, mise, stratégie
+
+#### Mode Interactif (CLI)
 
 ```bash
 python main.py
@@ -332,14 +349,15 @@ Max Bet Size       : $80.00 (Martingale)
 - [x] Règles Blackjack complètes
 - [x] 5 stratégies IA
 - [x] CLI Rich interactive
+- [x] **GUI Tkinter moderne** 🆕
 - [x] Tests unitaires >95%
 - [x] Statistiques détaillées
 
 #### 🔄 Version 1.1 (Q1 2025)
-- [ ] Interface graphique Tkinter/PyQt
 - [ ] Mode multijoueur local
 - [ ] Variantes règles (European, Vegas Strip)
 - [ ] Tutoriel interactif
+- [ ] Amélioration GUI (animations, sons)
 
 #### 🚀 Version 2.0 (Q2 2025)
 - [ ] IA Deep Reinforcement Learning (DQN)
