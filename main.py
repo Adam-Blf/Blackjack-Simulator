@@ -91,7 +91,20 @@ Examples:
         help="Show statistics from previous sessions"
     )
     
+    parser.add_argument(
+        "--gui",
+        action="store_true",
+        help="Launch GUI interface"
+    )
+    
     args = parser.parse_args()
+    
+    # Launch GUI mode
+    if args.gui:
+        from src.gui import BlackjackGUI
+        app = BlackjackGUI()
+        app.run()
+        return
     
     # Show stats and exit
     if args.stats:
