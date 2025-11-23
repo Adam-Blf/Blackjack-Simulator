@@ -1,0 +1,10 @@
+services:
+  # Blackjack Simulator (Streamlit)
+  - type: web
+    name: blackjack-simulator
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run streamlit_app.py
+    plan: free
+    branch: main
+    rootDir: .
