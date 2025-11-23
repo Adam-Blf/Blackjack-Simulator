@@ -1,5 +1,8 @@
 # Requirements for Blackjack Simulator
 
+# Web Interface
+streamlit>=1.32.0       # Modern Web UI
+
 # CLI Interface
 rich>=13.7.0            # Beautiful terminal formatting
 click>=8.1.7            # Command-line interface creation
