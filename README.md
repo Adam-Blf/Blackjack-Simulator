@@ -1,18 +1,15 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adambeloucif/) ![Visitor Badge](https://visitor-badge.laobi.icu/badge?page_id=Adam-Blf.Blackjack-Simulator)
 
-![Dernier commit](https://img.shields.io/badge/Dernier%20commit-23/11/2025-brightgreen) ![Langage principal](https://img.shields.io/badge/Langage%20principal-Python-blue) ![Nombre de langages](https://img.shields.io/badge/Nombre%20de%20langages-2-orange)
+
+
+![Dernier commit](https://img.shields.io/github/last-commit/Adam-Blf/Blackjack-Simulator?style=flat&logo=git&logoColor=white&color=0080ff&label=Dernier%20commit) ![Langage principal](https://img.shields.io/github/languages/top/Adam-Blf/Blackjack-Simulator?style=flat&logo=git&logoColor=white&color=0080ff&label=Langage%20principal) ![Nombre de langages](https://img.shields.io/github/languages/count/Adam-Blf/Blackjack-Simulator?style=flat&logo=git&logoColor=white&color=0080ff&label=Nombre%20de%20langages)
 
 ### Construit avec les outils et technologies : 
-![Python](https://img.shields.io/badge/-Python-lightgrey) ![Batchfile](https://img.shields.io/badge/-Batchfile-lightgrey)
 
 🇫🇷 Français | 🇬🇧 Anglais | 🇪🇸 Espagnol | 🇮🇹 Italien | 🇵🇹 Portugais | 🇷🇺 Russe | 🇩🇪 Allemand | 🇹🇷 Turc
 
 # 🃏 Blackjack Simulator
 
-[![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)](https://www.python.org/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Tests](https://img.shields.io/badge/Tests-pytest-orange.svg)](https://pytest.org/)
-[![Coverage](https://img.shields.io/badge/Coverage-95%25-brightgreen.svg)]()
 
 > Simulateur de Blackjack professionnel en Python avec POO avancée, gestion d'états, stratégies IA, et tests unitaires complets.
 
