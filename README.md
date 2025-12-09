@@ -1,3 +1,11 @@
+Dernier commit: 23/11/2025 | Langage principal: Python | Nombre de langages: 2
+
+Construit avec les outils et technologies : 
+Python, Batchfile
+
+🇫🇷 Français | 🇬🇧 Anglais | 🇪🇸 Espagnol | 🇮🇹 Italien | 🇵🇹 Portugais | 🇷🇺 Russe | 🇩🇪 Allemand | 🇹🇷 Turc
+
+
 # 🃏 Blackjack Simulator
 
 [![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)](https://www.python.org/)
