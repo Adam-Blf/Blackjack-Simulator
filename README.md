@@ -11,6 +11,12 @@
 
 # 🃏 Blackjack Simulator
 
+![Status](https://img.shields.io/badge/status-complete-brightgreen)
+![Python](https://img.shields.io/badge/Python-3.11-3776AB?logo=python&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white)
+![pytest](https://img.shields.io/badge/tests-pytest-0A9EDC?logo=pytest&logoColor=white)
+![Render](https://img.shields.io/badge/deploy-Render-46E3B7?logo=render&logoColor=white)
+
 > Simulateur de Blackjack professionnel en Python avec POO avancée, gestion d'états, stratégies IA, et tests unitaires complets.
 
 [English](#english) | [Français](#français)
