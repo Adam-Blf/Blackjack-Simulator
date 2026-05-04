@@ -2,6 +2,11 @@
 
 # 🃏 Blackjack Simulator
 
+<!-- adam-badges:start -->
+[![commits](https://img.shields.io/github/commit-activity/t/Adam-Blf/Blackjack-Simulator?color=001329&label=commits&style=flat-square)](https://github.com/Adam-Blf/Blackjack-Simulator/commits) [![visites](https://hits.sh/github.com/Adam-Blf/Blackjack-Simulator.svg?style=flat-square&label=visites&color=001329)](https://hits.sh/github.com/Adam-Blf/Blackjack-Simulator/) [![last commit](https://img.shields.io/github/last-commit/Adam-Blf/Blackjack-Simulator?color=D4A437&style=flat-square&label=dernier%20push)](https://github.com/Adam-Blf/Blackjack-Simulator/commits) [![top language](https://img.shields.io/github/languages/top/Adam-Blf/Blackjack-Simulator?style=flat-square)](https://github.com/Adam-Blf/Blackjack-Simulator) [![license](https://img.shields.io/github/license/Adam-Blf/Blackjack-Simulator?style=flat-square&color=D4A437)](LICENSE)
+<!-- adam-badges:end -->
+
+
 ![Status](https://img.shields.io/badge/status-complete-brightgreen)
 ![Python](https://img.shields.io/badge/Python-3.11-3776AB?logo=python&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white)
