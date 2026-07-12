@@ -74,6 +74,23 @@ Simulateur de Blackjack complet implémentant les règles officielles du casino 
 
 ### 📂 Architecture
 
+```mermaid
+flowchart TB
+    MAIN["main.py<br/>CLI Rich"]
+    ST["streamlit_app.py<br/>version web"]
+    GAME["src/game.py<br/>FSM · logique principale"]
+    CORE["src/card · deck · hand<br/>moteur de cartes"]
+    ACT["src/player · dealer<br/>bankroll · strategie fixe"]
+    STRAT["src/strategies.py<br/>5 strategies IA · ABC"]
+    STATS["src/stats.py<br/>analyse · exports"]
+    MAIN --> GAME
+    ST --> GAME
+    GAME --> CORE
+    GAME --> ACT --> STRAT
+    GAME --> STATS
+```
+
+
 ```
 Blackjack-Simulator/
 ├── src/
